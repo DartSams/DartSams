@@ -1,0 +1,189 @@
+/* ##laptop## */
+@media (min-width:1280px){
+    header ul{
+        list-style-type: none;
+        margin:0;
+        padding:0;
+        background-color:black;
+        overflow: hidden;
+    }
+
+    header li{
+        display:inline;
+        
+        float:right;
+        
+    }
+
+    header a{
+        text-decoration:none;
+        display:block;
+        padding:10px;
+        color:white;
+    }
+
+    .responsive-nav{
+        display:none;
+    }
+
+    .active{
+        background-color:green;
+    }
+
+    header a:hover{
+        background-color:green;
+    }
+
+    body{
+        background: url('assets/background.jpg');
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .row{
+        display:flex;
+        flex-direction:row;
+        padding: 10px 30px;
+        justify-content: center;
+        margin-top: 10%;
+    }
+    
+    .column a{
+        display:flex;
+        flex-direction:column;
+        padding: 10px 10px;
+        color: white;
+        text-decoration: none;
+    }
+    
+    img{
+        width:50px;
+        height:auto;
+    }
+
+    .social_lst .column{
+        background-color: grey;
+    }
+
+    fieldset{
+        width:70%;
+        height:auto;
+        margin-left: 13%;
+        margin-bottom:30px;
+    }
+    
+    legend{
+        color:white;
+    }
+    
+    .current-project-pic{
+        width:50%;
+        height:auto;
+        margin:2%;
+    }
+    
+    aside {
+        width: 30%;
+        margin:2% 5%;
+        float: right;
+        color:white;
+        
+      }
+    
+    aside h3{
+        font-size:98%;
+    }
+    
+    aside p{
+        margin-top: 8%;
+    }
+}
+
+
+/* ##Responsive iphone X## */
+@media (max-width:375px){
+    header ul{
+        list-style-type: none;
+        margin:0;
+        padding:0;
+        background-color:black;
+        overflow: hidden;
+    }
+
+    header li{
+        display:block;
+        width:100%;
+        text-decoration: none;
+    }
+
+    header a{
+        display:block;
+        color:white;
+        padding:10px;
+        padding-left: 35%;
+    }
+
+    header li:hover{
+        background-color:green;
+    }
+
+    /* .active{
+        background-color:green;
+    } */
+
+    .computer-nav{
+        display:none;
+    }
+
+    body{
+        background: url('assets/background.jpg');
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
+    .row{
+        display:flex;
+        flex-direction:row;
+        padding: 10px 30px;
+        justify-content: center;
+        margin-top: 10%;
+    }
+    
+    .column a{
+        display:flex;
+        flex-direction:column;
+        padding: 10px 30px;
+        color:white;
+        text-decoration: none;
+    }
+    
+    img{
+        width:50px;
+        height:auto;
+        background-color: grey;
+    }
+
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        width:80%
+    }
+
+    fieldset img{
+        display: flex;
+        flex-wrap: wrap;
+        width:80%
+    }
+
+    aside{
+        color:white;
+    }
+
+    legend{
+        color:white;
+    }
+}
+
+
+
