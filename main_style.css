@@ -101,7 +101,7 @@
 
 
 /* ##Responsive iphone 11## */
-@media (max-width:326px){
+@media (max-width:414px){
     header ul{
         list-style-type: none;
         margin:0;
