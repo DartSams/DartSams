@@ -7,7 +7,7 @@
 ### Website Preview
 <p align="center"> 
   <kbd>
-    <a href="https://varadbhogayata.github.io" target="_blank"><img src="examples/preview.gif">
+    <a href="https://dartsams.github.io/assets/portfolio-website-preview.PNG" target="_blank"><img src="assets/portfolio-website-preview.PNG">
   </a>
   </kbd>
 </p>
