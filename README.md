@@ -1,30 +1,28 @@
 # Personal Portfolio ⚡️ 
 > A clean, beautiful, responsive portfolio template for Software Developers!
 
-> 	https://dartsams.github.io/main_index.html
+> https://dartsams.github.io/main_index.html
 
 
 ### Website Preview
-<p align="center"> 
-  <kbd>
+<p> 
     <a href="https://dartsams.github.io/assets/portfolio-website-preview.PNG" target="_blank"><img src="assets/portfolio-website-preview.PNG">
-  </a>
-  </kbd>
+    </a>
 </p>
 
 
 ## Features 
-> Fully Responsive\
+> Iphone 11 Responsive\
 > Valid HTML5 & CSS3\
 > Easy to modify
 
 ## Installation & Deployment 
-- Clone the repository and modify the content of <b>index.html</b> according to your requirement.
-- Add or remove images from `varadbhogayata.github.io/assets/img/` directory as per your requirement.
-- I highly recommend to use [Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) to deploy the website the EASIEST WAY.
-- To deploy your website, first you need to create github repository with name `<your-github-username>.github.io`. Please don't give any other name.
-- Push the generated code to the `master` branch of this repository.
-- <b>NOTE:</b> Make sure to set `analyticsId` from your Google Analytics account inside the Google Analytics script tag, if you want to use your own Google Analytics account.
+>	Clone the repository using (git clone https://github.com/DartSams/DartSams.github.io.git)
+>	Modify the index.html and projects.html file to suite your profile 
+>	Create a new repository called ‘<your-github-username>.github.io’ this allows github to host your new static website.
+>	Copy over all the html,css,and assets to the new repository 
+>	Push to the ‘master’ branch of the repository
+
 
 ## Sections 📚
 ✔️ Home & socials
@@ -33,6 +31,6 @@
 
 
 ## Tools Used 🛠️
-* [<b>GitHub Pages</b>](https://create-react-app.dev/docs/deployment/#github-pages) - To host my static website (HTML, CSS, JS).
+* [<b>GitHub Pages</b>](https://create-react-app.dev/docs/deployment/#github-pages) - To host my static website (HTML & CSS).
 
 
