@@ -4,35 +4,44 @@
         list-style-type: none;
         margin:0;
         padding:0;
-        background-color:black;
         overflow: hidden;
     }
 
-    header li{
-        display:inline;
-        
+    header a{
+        /* display:inline; */
+        margin-right: 20px;
         float:right;
         
     }
 
+    header li:first-child{
+        float:left
+    }
+
     header a{
         text-decoration:none;
-        display:block;
+        /* display:block; */
         padding:10px;
         color:white;
+        font-size: 30px;
+        background:rgb(11, 137, 179);
+        border-radius: 10px;
     }
+
 
     .responsive-nav{
         display:none;
     }
 
-    .active{
+    /* .active{
         background-color:green;
-    }
+    } */
 
     header a:hover{
-        background-color:green;
+        opacity:0.8
     }
+
+
 
     body{
         background: url('assets/background.jpg');
@@ -45,7 +54,7 @@
         flex-direction:row;
         padding: 10px 30px;
         justify-content: center;
-        margin-top: 10%;
+        margin-top: 5%;
     }
     
     .column a{
@@ -54,16 +63,21 @@
         padding: 10px 10px;
         color: white;
         text-decoration: none;
+        margin:20px
     }
     
     img{
-        width:50px;
+        width:80px;
         height:auto;
     }
 
-    .social_lst .column{
-        background-color: grey;
+    main .column:hover{
+        opacity:0.8
     }
+
+    /* .social_lst .column{
+        background-color: grey;
+    } */
 
     fieldset{
         width:70%;
@@ -100,8 +114,8 @@
 }
 
 
-/* ##Responsive iphone 11## */
-@media (max-width:414px){
+/* ##Responsive iphone X## */
+@media (max-width:375px){
     header ul{
         list-style-type: none;
         margin:0;
