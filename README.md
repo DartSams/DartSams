@@ -19,7 +19,7 @@
 ## Installation & Deployment 
 -	Clone the repository
 -	Modify the index.html and projects.html file to suite your profile
--	Create a new repository called ‘<your-github-username>.github.io’ this allows github to host your new static website.
+-	Create a new repository called `your-github-username.github.io` this allows github to host your new static website.
 -	Copy over all the html,css,and assets to the new repository 
 -	Push to the ‘master’ branch of the repository
 
