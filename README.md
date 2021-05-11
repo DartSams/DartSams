@@ -25,8 +25,8 @@
 
 
 ## Sections 📚
-✔️ Home & socials
-✔️ Projects
+✔️ Home & socials\
+✔️ Projects\
 ✔️ Contact Info
 
 
@@ -34,3 +34,5 @@
 * [<b>GitHub Pages</b>](https://create-react-app.dev/docs/deployment/#github-pages) - To host my static website (HTML & CSS).
 
 
+## Todo
+-   add the contact info page
