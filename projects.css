@@ -1,4 +1,3 @@
-/* ##laptop## */
 @media (min-width:1050px){
     .responsive-nav{
         display:none;
@@ -97,7 +96,6 @@
 }
 
 
-/* ##Responsive iphone X## */
 @media (max-width: 1050px){
     *{
         margin:0;
