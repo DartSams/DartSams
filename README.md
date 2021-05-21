@@ -1,7 +1,7 @@
 # Personal Portfolio 
 > A clean, beautiful, responsive portfolio template for Software Developers!
 
-> https://dartsams.github.io/main_index.html
+> https://dartsams.github.io/index.html
 
 
 ### Website Preview
