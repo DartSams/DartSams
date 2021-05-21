@@ -1,0 +1,145 @@
+/* ##laptop## */
+@media (min-width:1050px){
+
+    .computer-navbar{
+        list-style-type: none;
+        display:flex;
+        /* margin:0;
+        padding:0 */
+    }
+
+    .computer-navbar a{
+        text-decoration: none;
+        font-size:30px;
+        color:white;
+    }
+
+    .computer-navbar .active{
+        background-color: rgb(11, 137, 179);
+        border-radius: 10px;
+        padding:5px;
+    }
+
+    .computer-navbar li:nth-child(2){
+        margin-left: 67%;
+        margin-right: 30px
+    }
+
+    .computer-navbar li:nth-child(n+2):hover{
+        opacity: 0.5;
+    }
+
+
+    .socials{
+        display:flex;
+        justify-content:center;
+        align-content: center;
+    }
+    .socials div{
+        flex-direction: column;   
+        margin:150px 25px 0px 25px 
+    }
+
+    .socials div:hover{
+        opacity: 0.5;
+    }
+
+
+    body{
+        background: url('assets/background.jpg');
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    
+    
+    img{
+        width:80px;
+        height:auto;
+    }
+}
+
+
+/* ##Responsive iphone X## */
+@media (max-width: 1050px){
+    /* header ul{
+        list-style-type: none;
+        margin:0;
+        padding:0;
+        background-color:black;
+        overflow: hidden;
+    }
+
+    header li{
+        display:block;
+        width:100%;
+        text-decoration: none;
+    }
+
+    header a{
+        display:block;
+        color:white;
+        padding:10px;
+        padding-left: 35%;
+    }
+
+    header li:hover{
+        background-color:green;
+    } */
+    *{
+        margin:0;
+        padding:0;
+        overflow: hidden;
+    }
+
+    .computer-navbar{
+        list-style-type: none;
+        display:flex;
+        margin-top: 20px;
+        flex-direction: column;
+
+    }
+
+    .computer-navbar li{
+        border-bottom: 1px solid white;
+        text-align: center;
+    }
+
+    .computer-navbar a{
+        font-size:30px;
+        text-decoration: none;
+        color:white
+    }
+
+
+    .socials{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        margin-top: 50px;
+    }
+
+    .socials div{
+        margin:30px 0px 10px 0px 
+    }
+
+
+    body{
+        background: url('assets/background.jpg');
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    img{
+        width:50px;
+        height:auto;
+    }
+
+
+}
+
+
+
