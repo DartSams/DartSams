@@ -32,7 +32,6 @@
     }
 
     body{
-        /* background: url('assets/background.jpg'); */
         background: url('possible backgrounds/python2 background.jpg');
         background-repeat:no-repeat;
         background-attachment: fixed;
@@ -62,7 +61,6 @@
         margin:2% 5%;
         float: right;
         color:white;
-        /* background-color:purple */
       }
     
     aside h3{
@@ -131,7 +129,6 @@
         background-repeat:no-repeat;
         background-attachment: fixed;
         background-size: cover;
-        /* background-position: center; */
     }
 
     .projects{
