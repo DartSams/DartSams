@@ -116,6 +116,7 @@
     .computer-navbar li{
         border-bottom: 1px solid white;
         text-align: center;
+        font-size:30px
     }
 
     .computer-navbar a{
@@ -137,18 +138,17 @@
     .row{
         display:flex;
         flex-flow: column;
-        justify-content: center;
-        align-items:center;
     }
 
     .row img{
-        width:  200px;
+        width:  100%;
         height: auto
     }
 
     .row h2{
         border-bottom: 2px solid white;
         margin-bottom: 5px;
+        font-size:30px
     }
 
     .row a{
@@ -165,10 +165,11 @@
         flex-direction: column;
     }
     
-    fieldset img,.current-project legend{
+    fieldset img{
         display: flex;
         width:80%;
         margin-left: 10%;
+        margin-top: 10px;
     }
 
     aside{
@@ -178,6 +179,7 @@
 
     legend{
         color:white;
+        text-align:center
     }
 
     .current-project{
