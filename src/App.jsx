@@ -13,22 +13,8 @@ function App() {
 
   return (
     <div className="app">
-      {/* <h1>Clicks: {count}</h1> */}
-      {/* <button onClick={updateCount}>Click Me</button> */}
-      <div id="container">
-        {/* <div id="navbar">
-          <button><a href="">01. About</a></button>
-          <button><a href="">02. Experience</a></button>
-          <button><a href="">03. Work</a></button>
-          <button><a href="">Resume</a></button>
-        </div>
 
-        <div id="center">
-          <p>Hi, my name is</p>
-          <h1>Dartagnan Sams</h1>
-          <h1>I build web apps and fun games</h1>
-          <h3>I'm a software developer building web applications I also build games in my free time and the occasional robotics IoT project.</h3>
-        </div> */}
+      <div id="container">
 
             <div id="left-container">
                 <div id="top">
@@ -96,7 +82,7 @@ function App() {
                   <ProjectCard img="/image.png" title="Capstone Project" text="As the team lead leading team/client meetings followed the client requirements of building a project that attracts students to the CS program."/>
                   <ProjectCard img="/vr.png" title="Rise of Honor" text="A VR unity game where players have to survive rounds of zombies in endless waves earning money to collect/upgrade weapons."/>
                   <ProjectCard img="" title="OpenCV Air Draw" text="Developed an interactive air drawing application using OpenCV and MediaPipe. The system tracks hand landmarks to identify fingertip movements, translating them into digital strokes for real-time drawing. It features both drawing and erasing functionalities, providing an intuitive way to interact with the canvas using only gestures."/>
-                  <ProjectCard img="/twitter.jpg" title="Twitter Clone" text="A Twitter clone developed to enhance my cloud engineering expertise. I built the backend with Python (Flask) and SQL, and deployed it using Docker for environment consistency. Later, I upgraded to Kubernetes to implement auto-scaling, load balancing, and reinforcing critical cloud infrastructure concepts and minimizing downtime."/>
+                  <ProjectCard img="/twitter.png" title="Twitter Clone" text="A Twitter clone developed to enhance my cloud engineering expertise. I built the backend with Python (Flask) and SQL, and deployed it using Docker for environment consistency. Later, I upgraded to Kubernetes to implement auto-scaling, load balancing, and reinforcing critical cloud infrastructure concepts and minimizing downtime."/>
                   <ProjectCard img="/discord.jpg" title="Discord Bot" text="This Discord bot serves as a powerful server management and utility tool, offering features like comprehensive moderation (role management, banning, muting) and automated content delivery. It integrates with external APIs to post LinkedIn job opportunities and Google Calendar events, enhancing community engagement and resource sharing."/>
                 </div>
 

@@ -122,6 +122,12 @@ button:focus, button:focus-visible {
   margin-bottom: 5rem;
 }
 
+#bottom img{
+  width:30px;
+  height: auto;
+  margin:5px
+}
+
 .nav-link {
   display: flex;
   align-items: center;
