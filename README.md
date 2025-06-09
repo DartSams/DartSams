@@ -1,38 +1,12 @@
-# Personal Portfolio 
-> A clean, beautiful, responsive portfolio template for Software Developers!
+# React + Vite
 
-> https://dartsams.github.io/index.html
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+Currently, two official plugins are available:
 
-### Website Preview
-<p> 
-    <a href="https://dartsams.github.io/assets/portfolio-website-preview.PNG" target="_blank"><img src="assets/portfolio website preview.PNG">
-    </a>
-</p>
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
+## Expanding the ESLint configuration
 
-## Features 
-> Iphone 11 Responsive\
-> Valid HTML5 & CSS3\
-> Easy to modify
-
-## Installation & Deployment 
--	Clone the repository
--	Modify the index.html and projects.html file to suite your profile
--	Create a new repository called `your-github-username.github.io` this allows github to host your new static website.
--	Copy over all the html,css,and assets to the new repository 
--	Push to the ‘master’ branch of the repository
-
-
-## Sections 📚
-✔️ Home & socials\
-✔️ Projects\
-✔️ Contact Info
-
-
-## Tools Used 🛠️
-* [<b>GitHub Pages</b>](https://create-react-app.dev/docs/deployment/#github-pages) - To host my static website (HTML & CSS).
-
-
-## Todo
--   add the contact info page
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
