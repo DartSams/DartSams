@@ -6,8 +6,8 @@
 
 ### Website Preview
 <p> 
-    <a href="https://dartsams.github.io/assets/preview.png" target="_blank"><img src="assets/preview.png">
-    </a>
+    <img width="1897" height="861" alt="image" src="https://github.com/user-attachments/assets/3abbfbe5-4039-4967-9df3-bc3bbc57641c" />
+
 </p>
 
 
