@@ -12,22 +12,23 @@
 
 
 ## Features 
-> Iphone Responsive\
-> Valid HTML5 & CSS3\
+> Mobile Responsive\
+> Valid React\
 > Easy to modify
 
 ## Installation & Deployment 
 -	Clone the repository
--	Modify the index.html and projects.html file to suite your profile
+-	Modify the react pages and components file to suite your profile
 -	Create a new repository called `your-github-username.github.io` this allows github to host your new static website.
--	Copy over all the html,css,and assets to the new repository 
+-	Copy over all the html,css, and assets to the new repository 
 -	Push to the ‘master’ branch of the repository
+-   use npm run deploy
 
 
 ## Sections 📚
 ✔️ Home & socials\
+✔️ About\
 ✔️ Projects\
-✔️ Contact Info
 
 
 ## Tools Used 🛠️
@@ -36,3 +37,4 @@
 
 ## Todo
 -   add the contact info page
+-   add experience timeline
