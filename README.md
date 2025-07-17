@@ -6,7 +6,7 @@
 
 ### Website Preview
 <p> 
-    <a href="https://dartsams.github.io/assets/preview.PNG" target="_blank"><img src="assets/preview.PNG">
+    <a href="https://dartsams.github.io/assets/preview.png" target="_blank"><img src="assets/preview.png">
     </a>
 </p>
 

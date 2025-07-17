@@ -8,14 +8,16 @@ html, body {
   padding: 0;
   height: 100%;
   overflow-x: hidden;
-  background-image: url("\space.jpg");
+  /* background-image: url("\space.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
-  background-color: black;
+  background-color: black; */
   color: white;
   scroll-behavior: smooth;
+  background: radial-gradient(circle at top left, #0f2027, #203a43, #2c5364);
+
 }
 
 #root {
